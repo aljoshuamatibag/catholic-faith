@@ -1,0 +1,29 @@
+body {
+	background: #f2f2f2;
+}
+
+#color-and-font {
+	color: #e4d96f;
+}
+
+#eph-color {
+	color: #2e5090;
+}
+
+.cross-svg {
+	width: 50%;
+	/* margin-top: 3em;
+	margin-right: 3em; */
+}
+
+.padre-pio-pic {
+	width: 70%;
+}
+
+.st-francis-of-assisi {
+	width: 70%;
+}
+
+section.saints {
+	background: #c2b280;
+}
