@@ -1,4 +1,4 @@
-section.introduction {
+body {
 	background: #f2f2f2;
 }
 
@@ -22,18 +22,6 @@ section.introduction {
 
 .st-francis-of-assisi {
 	width: 70%;
-}
-
-section.bg-ancient-saints {
-	background: #c2b280;
-}
-
-section.bg-modern-saints {
-	background: #f0dc82;
-}
-
-section.bible-app {
-	background: #ffd59a;
 }
 
 .bible-svg {
