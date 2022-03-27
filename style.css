@@ -24,6 +24,47 @@ body {
 	width: 70%;
 }
 
-.bible-svg {
-	width: 30%;
+/* .bible-app {
+	width: 100%;
+} */
+
+.bible-app-button {
+	position: relative;
+	top: 20px;
+}
+
+/* .bible-image-position {
+	width: 50%;
+} */
+
+.bible-image {
+	width: 15%;
+}
+
+.footer {
+	background: white;
+	color: black;
+	text-align: center;
+	padding: 1em 0;
+}
+
+.footer-space {
+	position: relative;
+	top: 300px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.holy {
+	position: absolute;
+	right: 10%;
+	height: 500px;
+	width: 300px;
+}
+
+.copyright {
+	font-weight: bold;
+	font-size: large;
 }

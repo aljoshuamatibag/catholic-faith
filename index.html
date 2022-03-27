@@ -10,7 +10,8 @@
 			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="style.css" media="all"/>
+		<link rel="shortcut icon" href="images/cross-svgrepo-com.svg"/>
 		<title>Stay Catholic</title>
 	</head>
 	<body>
@@ -69,7 +70,7 @@
 							<a class="nav-link" href="#bible-dropdown">Bible</a>
 						</li>
 					</ul>
-					<form class="d-flex">
+					<!-- <form class="d-flex">
 						<input
 							class="form-control me-2"
 							type="search"
@@ -78,7 +79,7 @@
 						/>
 						<button class="btn btn-outline-success" type="submit">
 							Search
-						</button>
+						</button> -->
 					</form>
 				</div>
 			</div>
@@ -199,8 +200,15 @@
 			<div class="container d-flex justify-content-start m-sm-5">
 				<p class="fs-3">Download the Bible app now</p>
 			</div>
+			<section class="bible-image-position container d-flex justify-content-start m-sm-5">
+				<div class="bible-image">
+					<img src="../catholic-faith/images/bible-svgrepo-com.svg" alt="bible-mininimalist icon">
+					<img src="/catholic-faith/images/the holy family.jpg" alt="the holy family" class="holy">
+				</div>
+			</section>
 			<div
 				class="
+					bible-app-button
 					container
 					d-flex
 					justify-content-start
@@ -211,14 +219,27 @@
 					mx-auto
 				"
 			>
-				<button class="btn btn-outline-primary col-2 me-md-5" type="button">
-					Android
-				</button>
+				<button class="btn btn-outline-primary col-3" type="button">Android</button>
 				<button class="btn btn-outline-primary col-2" type="button">iOS</button>
 			</div>
 		</section>
 
-		<footer class="footer"></footer>
+		<section>
+			<div>
+				
+			</div>
+		</section>
+
+		<!-- This is the footer section -->
+		<section class="footer-space">
+			<footer class="footer">
+				<!-- <a href="mailto:matibagaljoshua@gmail.com" class="footer__link">matibagaljoshua@gmail.com</a> -->
+				<ul>
+					<li class="copyright">&copy; Stay Catholic 2021</li>
+				</ul>
+			</footer>
+		</section>
+
 
 		<script
 			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
