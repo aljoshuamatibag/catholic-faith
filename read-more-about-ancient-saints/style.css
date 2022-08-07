@@ -16,24 +16,17 @@ body {
 	margin-right: 3em; */
 }
 
-.ancient-saints {
-	position: relative;
-	/* top: 200px; */
-}
-
-.modern-saint-pic {
+.padre-pio-pic {
 	width: 70%;
 }
 
-.ancient-saint-pic {
+.st-francis-of-assisi {
 	width: 70%;
 }
 
-.bible-app {
+/* .bible-app {
 	width: 100%;
-	position: relative;
-	/* top: 200px; */
-}
+} */
 
 .bible-app-button {
 	position: relative;
@@ -50,11 +43,6 @@ body {
 	width: 15%;
 }
 
-.inspirational-quotes {
-	position: relative;
-	top: 200px;
-}
-
 .footer {
 	background: white;
 	color: black;
@@ -64,7 +52,7 @@ body {
 
 .footer-space {
 	position: relative;
-	top: 500px;
+	top: 300px;
 }
 
 ul {
@@ -81,12 +69,4 @@ ul {
 .copyright {
 	font-weight: bold;
 	font-size: large;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
 }
