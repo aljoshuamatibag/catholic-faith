@@ -50,9 +50,13 @@ body {
 	width: 15%;
 }
 
-.inspirational-quotes {
+.table-margin {
 	position: relative;
 	top: 200px;
+}
+
+.align-middle {
+	vertical-align: middle;
 }
 
 .footer {
