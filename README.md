@@ -1,1 +1,1 @@
-# catholic-faith
+# A website for catholics and faithfuls alike
