@@ -44,8 +44,12 @@ body {
 	width: 50%;
 } */
 
-#line-height {
-	margin-top: 200px;
+#line-height-bible-app {
+	margin-top: 210px;
+}
+
+#line-height-inspiration {
+	margin-top: 210px;
 }
 
 .bible-image {
@@ -54,9 +58,9 @@ body {
 	width: 15%;
 }
 
-.table-margin {
+#table-margin {
 	position: relative;
-	top: 200px;
+	top: 135px;
 }
 
 .footer {
