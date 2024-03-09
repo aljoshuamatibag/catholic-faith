@@ -55,7 +55,10 @@
 						<a class="nav-link" aria-current="page" href="#store">Store</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" aria-current="page" href="#inspiration-for-you">Inspiration For You</a>
+						<a class="nav-link" aria-current="page" href="#inspiration-for-you">Inspiration for you</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="#contacts">Contacts</a>
 					</li>
 				</ul>
 				<!-- <form class="d-flex">
@@ -438,7 +441,7 @@
 		  <img src="images\pieta-2007811__61667.jpg" alt="black mug" style="width:100%">
 			  <div class="container">
 			<h4><b>Pieta Figurine</b></h4> 
-		  <p>Php 120</p> 
+		  <p>Php 120</p>
 		  </div>
 		  </div>
 		  </div>
@@ -497,6 +500,35 @@
 			</table>
 		</div>
 	</section>
+
+	<section id="contacts">
+
+	<div class="container-contacts">
+	  <div id="center-text">
+		<h2>Contact Us</h2>
+		<p>Leave us a message:</p>
+	  </div>
+	  <div class="row container d-flex justify-content-start m-sm-5">
+		<div class="center column">
+		  <form action="/action_page.php">
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="firstname" maxlength="10" placeholder="Your name.." size="40">
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname" name="lastname" maxlength="10" placeholder="Your last name.." size="40">
+			<label for="country">Country</label>
+			<select id="country" name="country">
+			  <option value="australia">Australia</option>
+			  <option value="canada">Canada</option>
+			  <option value="usa">USA</option>
+			</select>
+			<label for="subject">Subject</label>
+			<textarea id="subject" name="subject" maxlength="10" size="40" placeholder="Write something.." style="height:170px" size="40"></textarea>
+			<input type="submit" value="Submit">
+		  </form>
+		</div>
+	  </div>
+	</div>
+</section>
 
 	<!-- This is the footer section -->
 	<section class="footer-space">
