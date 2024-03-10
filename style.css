@@ -110,7 +110,7 @@ body {
   }
   /* Style inputs */
   input[type=text], select, textarea {
-	width: 100%;
+	width: 110%;
 	padding: 12px;
 	border: 1px solid #ccc;
 	margin-top: 6px;
