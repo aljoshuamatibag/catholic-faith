@@ -502,29 +502,34 @@
 	</section>
 
 	<section id="contacts">
-
-	<div class="container-contacts">
+	<div id="jesus-in-the-cross">
+		<img src="images\ThinkstockPhotos-925050874.jpg" id="jesus-margin" alt="jesus-together-with-the-sinners" style="width:100%">
+	</div>
+	<div class="row container-contacts">
 	  <div id="center-text">
-		<h2>Contact Us</h2>
+		<h2 id="jesusmargin">Contact Us</h2>
 		<p>Leave us a message:</p>
 	  </div>
 	  <div class="row container d-flex justify-content-start m-sm-5">
-		<div class="center column">
-		  <form action="/action_page.php">
-			<label for="fname">First Name</label>
-			<input type="text" id="fname" name="firstname" placeholder="Your name..">
-			<label for="lname">Last Name</label>
-			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
-			<label for="country">Country</label>
-			<select id="country" name="country">
-			  <option value="australia">Australia</option>
-			  <option value="canada">Canada</option>
-			  <option value="usa">USA</option>
-			</select>
-			<label for="subject">Subject</label>
-			<textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-			<input type="submit" value="Submit">
-		  </form>
+		<div id="contactsmargin" class="center column">
+			<div class="form-floating">
+		  		<form action="/action_page.php">
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" class="form-control" placeholder="Your name..">
+				<label for="lname">Last Name</label>
+				<input type="text" class="form-control" id="lname" name="lastname" placeholder="Your last name..">
+				<label for="country">Country</label>
+				<select class="form-select" id="country" name="country">
+				<option value="philippines">Philippines</option>
+			  	<option value="australia">Australia</option>
+			  	<option value="canada">Canada</option>
+			  	<option value="usa">USA</option>
+				</select>
+				<label for="subject">Subject</label>
+				<textarea type="text" class="form-control" id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+				<button class="btn btn-primary" type="submit">Submit</button>
+		  	</form>
+			</div>
 		</div>
 	  </div>
 	</div>
