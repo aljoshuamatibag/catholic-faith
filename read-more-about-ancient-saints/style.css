@@ -1,0 +1,72 @@
+body {
+	background: #f2f2f2;
+}
+
+#color-and-font {
+	color: #e4d96f;
+}
+
+#eph-color {
+	color: #2e5090;
+}
+
+.cross-svg {
+	width: 50%;
+	/* margin-top: 3em;
+	margin-right: 3em; */
+}
+
+.padre-pio-pic {
+	width: 70%;
+}
+
+.st-francis-of-assisi {
+	width: 70%;
+}
+
+/* .bible-app {
+	width: 100%;
+} */
+
+.bible-app-button {
+	position: relative;
+	top: 20px;
+}
+
+/* .bible-image-position {
+	width: 50%;
+} */
+
+.bible-image {
+	position: absolute;
+	right: 10%;
+	width: 15%;
+}
+
+.footer {
+	background: white;
+	color: black;
+	text-align: center;
+	padding: 1em 0;
+}
+
+.footer-space {
+	position: relative;
+	top: 300px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* .holy {
+	position: absolute;
+	right: 10%;
+	height: 500px;
+	width: 300px;
+} */
+
+.copyright {
+	font-weight: bold;
+	font-size: large;
+}
