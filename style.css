@@ -218,7 +218,7 @@ select[type=text] {
 
 .footer-space {
 	position: relative;
-	top: 350px;
+	/* top: 350px; */
 }
 
 ul {
@@ -235,6 +235,8 @@ ul {
 .copyright {
 	font-weight: bold;
 	font-size: large;
+	/* position: absolute;
+	bottom: 0; */
 }
 
 * {
