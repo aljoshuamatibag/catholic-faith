@@ -1,5 +1,11 @@
 body {
-	background: #f5f5f5;
+	background: #FFFFF0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background: #FFFFE6;
+	/* background: #2343; */
 }
 
 #color-and-font {
@@ -45,11 +51,11 @@ body {
 } */
 
 #line-height-bible-app {
-	margin-top: 210px;
+	margin-top: 19px;
 }
 
 #line-height-inspiration {
-	margin-top: 210px;
+	margin-top: 19px;
 }
 
 .bible-image {
@@ -59,7 +65,7 @@ body {
 }
 
 #margin-top {
-	margin-top: 200px;
+	margin-top: 100px;
 }
 
 #to-the-right {
@@ -67,10 +73,11 @@ body {
 }
 
 .card {
+	margin-top: 100;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	transition: 0.3s;
 	width: 90%;
-	margin-top: 80px;
+	/* margin-top: 80px; */
 	display: flex;
 }
 
@@ -114,16 +121,16 @@ body {
 	margin-bottom: 180px;
 }
 
-body {
+/* body {
 	font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
 * {
 	box-sizing: border-box;
 }
 
 #contacts {
-	margin-top: 450px;
+	margin-top: 240px;
 }
 
 /* Style inputs */
@@ -210,10 +217,10 @@ select[type=text] {
 }
 
 .footer {
-	background: white;
+	background: #FFFFE6;
 	color: black;
 	text-align: center;
-	padding: 1em 0;
+	padding: .5em 0;
 }
 
 .footer-space {
