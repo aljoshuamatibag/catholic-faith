@@ -86,7 +86,7 @@
 	<section class="introduction">
 		<div class="container d-flex justify-content-start m-sm-5">
 			<div class="left-col">
-				<h1>Bible quote</h1>
+				<h2>Bible quote</h2>
 				<div>
 					<p class="subhead">
 						<i>"For we are not fighting against flesh-and-blood enemies, but
@@ -107,13 +107,13 @@
 
 	<section class="ancient-saints">
 		<div class="container d-flex justify-content-start m-sm-5">
-			<h1 id="ancient-saints">Ancient Saints</h1>
+			<h2 id="ancient-saints">Ancient Saints</h2>
 		</div>
 		<div class="container d-flex justify-content-center m-sm-5">
 			<img src="images/St-Francis-of-Assisi.jpg" class="ancient-saint-pic" alt="Saint Francis of Assisi" />
 		</div>
 		<div class="container d-flex justify-content-center m-sm-5">
-			<h3>Giovanni di Pietro di Bernardone</h3>
+			<h4>Giovanni di Pietro di Bernardone</h4>
 		</div>
 		<div class="container d-flex justify-content-start m-sm-5">
 			<p>
@@ -153,7 +153,7 @@
 			<img src="images/St. Anthony.jpg" class="ancient-saint-pic" alt="Saint Anthony of Padua" />
 		</div>
 		<div class="container d-flex justify-content-center m-sm-5">
-			<h3>Anthony of Padua</h3>
+			<h4>Anthony of Padua</h4>
 		</div>
 		<div class="container d-flex justify-content-start m-sm-5">
 			<p>
@@ -175,7 +175,7 @@
 				alt="Saint Thomas Aquinas" />
 		</div>
 		<div class="container d-flex justify-content-center m-sm-5">
-			<h3>Thomas of Aquinas</h3>
+			<h4>Thomas of Aquinas</h4>
 		</div>
 		<div class="container d-flex justify-content-start m-sm-5">
 			<p>
@@ -217,13 +217,13 @@
 
 	<section class="modern-saints">
 		<div class="container d-flex justify-content-start m-sm-5">
-			<h1 id="modern-saints">Modern Saints</h1>
+			<h2 id="modern-saints">Modern Saints</h2>
 		</div>
 		<div class="container d-flex justify-content-center m-sm-5">
 			<img src="images/Pe. Pio HD Final 10x15cm.jpg" class="modern-saint-pic" alt="Saint Padre Pio" />
 		</div>
 		<div class="container d-flex justify-content-center m-sm-5">
-			<h3>Francesco Forgione</h3>
+			<h4>Francesco Forgione</h4>
 		</div>
 		<div class="container d-flex justify-content-start m-sm-5">
 			<p>
@@ -247,7 +247,7 @@
 			<img src="images/maximilian-kolbe.jpg" class="modern-saint-pic" alt="Saint Padre Pio" />
 		</div>
 		<div class="container d-flex justify-content-center m-sm-5">
-			<h3>Maximilian Kolbe</h3>
+			<h4>Maximilian Kolbe</h4>
 		</div>
 		<div class="container d-flex justify-content-start m-sm-5">
 			<p>
@@ -276,7 +276,7 @@
 			<img src="images/St.-Josemaria-Escriva.jpg" class="modern-saint-pic" alt="Saint Josemaria Esscriva" />
 		</div>
 		<div class="container d-flex justify-content-center m-sm-5">
-			<h3>Josemaría Escrivá</h3>
+			<h4>Josemaría Escrivá</h4>
 		</div>
 		<div class="container d-flex justify-content-start m-sm-5">
 			<p>
@@ -320,7 +320,7 @@
 	<section class="bible-app">
 		<div id="bible-dropdown"></div>
 		<div class="container d-flex justify-content-start m-sm-5">
-			<h1>Bible</h1>
+			<h2>Bible</h2>
 		</div>
 		<div class="container d-flex justify-content-start m-sm-5">
 			<p class="fs-3">Download the Bible app now</p>
@@ -457,9 +457,13 @@
 	</section>
 
 	<!-- <div class="margin-for-inspiration"> -->
-	<div id="inspiration-for-you"></div>
-	<div id="line-height-inspiration"></div>
 	<section id="table-margin">
+		<div id="inspiration-for-you" class="container d-flex justify-content-start m-sm-5">
+			<h2>
+				<p>Inspiration for you</p>
+			</h2>
+		</div>
+		<div id="line-height-inspiration">
 		<div class="table-responsive">
 			<table class="table align-middle table-borderless">
 				<thead>
@@ -507,28 +511,31 @@
 				</tbody>
 			</table>
 		</div>
+		</div>
 	</section>
 
 	<section id="contacts">
 		<div id="jesus-in-the-cross">
 			<img src="images\ThinkstockPhotos-925050874.jpg" id="jesus-margin" alt="jesus-together-with-the-sinners"
 				style="width:100%">
+		</div>
 			<div class="row container-contacts">
 				<div id="center-text">
 					<h2 id="jesusmargin">Contact Us</h2>
 					<p>Leave us a message:</p>
 				</div>
-				<div class="row container d-flex justify-content-start m-sm-5">
-					<div id="contactsmargin" class="center column">
+			</div>
+				<!-- <div class="row container d-flex justify-content-start m-sm-5"> -->
+					<div id="contactsmargin" class="center-contacts">
 						<div class="form-floating">
 							<form action="/action_page.php">
-								<label for="fname">First Name</label>
+								<label for="fname">First Name:</label>
 								<input type="text" id="fname" name="firstname" class="form-control"
-									placeholder="Your name..">
-								<label for="lname">Last Name</label>
+									placeholder="Your name.." size="45">
+								<label for="lname">Last Name:</label>
 								<input type="text" class="form-control" id="lname" name="lastname"
 									placeholder="Your last name..">
-								<label for="country">Country</label>
+								<label for="country">Country:</label>
 								<select class="form-select" id="country" name="country">
 									<option value="philippines">Philippines</option>
 									<option value="china">China</option>
@@ -543,8 +550,7 @@
 							</form>
 						</div>
 					</div>
-				</div>
-			</div>
+				
 	</section>
 
 	<!-- This is the footer section -->
