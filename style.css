@@ -143,6 +143,26 @@ header {
 	margin-top: 240px;
 }
 
+label, select, option {
+	margin-left: 30px;
+}
+
+.countries, select, option {
+	margin-right: 56px;
+}
+
+.write-something, textarea {
+	margin-right: 56px;
+}
+
+.country {
+	margin-right: 30px;
+}
+
+.btn-primary {
+	margin-left: 30px;
+}
+
 .center-contacts {
 	display: flex;
 	justify-content: center;
@@ -152,7 +172,7 @@ header {
 form input,
 form textarea {
 	display: block;
-	width: 100%;
+	width: 88%;
 	margin-bottom: 10px;
 	padding: 10px;
 	border: none;
@@ -161,11 +181,12 @@ form textarea {
 
 /* Style inputs */
 input[type=text], select, textarea {
-  width: 100%;
+  width: 88%;
   padding: 12px;
   border: 1px solid #ccc;
   margin-top: 6px;
   margin-bottom: 16px;
+  margin-left: 30px;
   resize: vertical;
 }
 
@@ -228,12 +249,12 @@ select[type=text] {
 } */
 
 /* Create two columns that float next to eachother */
-.column {
+/* .column {
 	float: left;
 	width: 50%;
 	margin-top: 6px;
 	padding: 20px;
-}
+} */
 
 /* Clear floats after the columns */
 .row:after {
