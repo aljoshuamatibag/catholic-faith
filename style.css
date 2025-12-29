@@ -144,19 +144,15 @@ header {
 }
 
 label, select, option {
-	margin-left: 30px;
+	margin-left: 7%; /* first name, last name, country, subject */
 }
 
 .countries, select, option {
-	margin-right: 56px;
+	margin-right: 12%;
 }
 
 .write-something, textarea {
-	margin-right: 56px;
-}
-
-.country {
-	margin-right: 30px;
+	margin-right: 12%;
 }
 
 .btn-primary {
